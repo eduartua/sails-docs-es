@@ -76,7 +76,7 @@ Para más información sobre cómo contribuir a Sails en general, échale un vis
 
 #### Progreso del proyecto de traducción a español:
 Archivos traducidos:
-1. sails-docs-es/getting-started/getting-started.md
-2. sails-docs-es/README.md
+1. Sails-docs-es/getting-started/getting-started.md
+2. Sails-docs-es/README.md
 
 Para interesados en colaborar con este proyecto contactarme por [@eduartua](https://twitter.com/eduartua).
