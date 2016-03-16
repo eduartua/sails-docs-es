@@ -1,13 +1,13 @@
 ![Squiddy reads the docs](http://sailsjs.org/images/squidford_swimming.png)
 
-# Sails.js Documentation
+# Documentación de Sails.js
 
-The official documentation for the current stable release of Sails is on the [master branch](github.com/balderdashy/sails-docs) of this repository.  Content for most sections on the [official Sails website](http://sailsjs.org) is compiled from here.
+La documentación oficial de la última versión estable de Sails está en la [rama master](github.com/balderdashy/sails-docs) de este repositorio. El contenido de la mayoría de las secciones en el [sitio web oficial  de Sails](http://sailsjs.org) es compilado desde aquí.
 
 
-## In Other Languages
+## En Otros Idiomas
 
-The documentation for Sails has been translated to a number of different languages.  The list below is a reference of the translation projects we are aware of.
+La documentación de Sails ha sido traducida a diferentes idiomas. La lista abajo es una referencia de los proyectos asociados a las traducciones y de los cuáles estamos al tanto.
 
 | Language                     | [IETF Language Tag](https://en.wikipedia.org/wiki/IETF_language_tag)  | Maintainer(s)        | Repo                               |
 | ---------------------------- | ------- | ------------------ | ---------------------------------- |
