@@ -1,26 +1,26 @@
 # Getting Started
 
-## Installation
-To install the latest stable release with the command-line tool:
+## Instalación
+Para instalar globalmente la última versión estable con la herramienta línea de comandos o terminal:
 
 	sudo npm -g install sails
 
-On Windows (or Mac OS with Homebrew), you don't need sudo:
+En Windows (o Mac OS con Homebrew), no necesitas sudo:
 
 	npm -g install sails
 
-## Creating a New Sails Project
-Create a new app:
+## Creando un nuevo proyecto en Sails
+Crear una nueva aplicación:
 
-	sails new testProject
+	sails new proyectoPrueba
 
-Now lift the server:
+Ahora inicia el servidor:
 
-	cd testProject
+	cd proyectoPrueba
 	sails lift
 
-At this point, if you visit (http://localhost:1337/) you will see the default home page.
+En este momento, si visitas (http://localhost:1337/) podrás ver la página de inicio que está configurada por defecto.
 
-Now, let's get Sails to do cool stuff.
+Ahora, podemos usar Sails para hacer cosas interesantes.
 
 <docmeta name="displayName" value="Installation">
