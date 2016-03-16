@@ -9,7 +9,7 @@ La documentación oficial de la última versión estable de Sails está en la [r
 
 La documentación de Sails ha sido traducida a diferentes idiomas. La lista abajo es una referencia de los proyectos asociados a las traducciones y de los cuáles estamos al tanto.
 
-| Language                     | [IETF Language Tag](https://en.wikipedia.org/wiki/IETF_language_tag)  | Maintainer(s)        | Repo                               |
+| Idioma                     | [Etiqueta de idomas IETF](https://en.wikipedia.org/wiki/IETF_language_tag)  | Colaboarador(es)        | Repo                               |
 | ---------------------------- | ------- | ------------------ | ---------------------------------- |
 | Japanese                     | `ja`    | [@kory-yhg](https://github.com/kory-yhg)      | [sails-docs-ja](https://github.com/balderdashy/sails-docs/tree/ja) <br/>(_live on [sailsjs.jp](http://sailsjs.jp)_)
 | Spanish                      | `es`    | [@eduartua](https://github.com/eduartua/) & [@alejandronanez](https://github.com/alejandronanez)   | [sails-docs-es](https://github.com/eduartua/sails-docs-es)
