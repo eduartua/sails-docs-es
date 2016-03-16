@@ -2,75 +2,81 @@
 
 # Documentación de Sails.js
 
-La documentación oficial de la última versión estable de Sails está en la [rama master](github.com/balderdashy/sails-docs) de este repositorio. El contenido de la mayoría de las secciones en el [sitio web oficial  de Sails](http://sailsjs.org) es compilado desde aquí.
+La documentación oficial de la última versión estable de Sails está en la [rama master](https://github.com/balderdashy/sails-docs) de este repositorio. El contenido de la mayoría de las secciones en el [sitio web oficial  de Sails](http://sailsjs.org) es compilado desde aquí.
 
 
 ## En Otros Idiomas
 
-La documentación de Sails ha sido traducida a diferentes idiomas. La lista abajo es una referencia de los proyectos asociados a las traducciones y de los cuáles estamos al tanto.
+La documentación de Sails ha sido traducida a diferentes idiomas. La tabla de abajo es una referencia de los proyectos asociados a las traducciones y de los cuáles estamos al tanto.
 
 | Idioma                     | [Etiqueta de idomas IETF](https://en.wikipedia.org/wiki/IETF_language_tag)  | Colaboarador(es)        | Repo                               |
 | ---------------------------- | ------- | ------------------ | ---------------------------------- |
-| Japonés                     | `ja`    | [@kory-yhg](https://github.com/kory-yhg)      | [sails-docs-ja](https://github.com/balderdashy/sails-docs/tree/ja) <br/>(_live on [sailsjs.jp](http://sailsjs.jp)_)
+| Japonés                     | `ja`    | [@kory-yhg](https://github.com/kory-yhg)      | [sails-docs-ja](https://github.com/balderdashy/sails-docs/tree/ja) <br/>(_en vivo en [sailsjs.jp](http://sailsjs.jp)_)
 | Español                      | `es`    | [@eduartua](https://github.com/eduartua/) & [@alejandronanez](https://github.com/alejandronanez)   | [sails-docs-es](https://github.com/eduartua/sails-docs-es)
 | Portugés Brasileño         | `pt-BR` | [@marceloboeira](https://github.com/marceloboeira) & [@gabrielalmir10](https://github.com/gabrielalmir10)   | [sails-docs-pt-BR](https://github.com/balderdashy/sails-docs/tree/pt-BR)
 | Mandarín Taiwanés           | `zh-TW` | [@CalvertYang](https://github.com/CalvertYang)   | [sails-docs-zh-TW](https://github.com/balderdashy/sails-docs/tree/zh-TW)
 | Koreano                       | `ko`    | [@sapsaldog](https://github.com/sapsaldog)   | [sails-docs-ko](https://github.com/balderdashy/sails-docs/tree/ko)
 
-> Since we are now using branches to keep track of different versions of the Sails documentation, we are moving away from the original approach of using branches for different languages.  Before embarking on a new translation project, we ask that you review the [updated information below](#how-can-i-help-translate-the-documentation)-- the process has changed a little bit.
+> Dado que ahora utilizamos ramas para realizar seguimiento de las diferentes versiones de la documentación de Sails, estamos dejando a un lado el enfoque original de usar ramas para diferentes idiomas. Antes de iniciar un nuevo proyecto de traducción, te pedimos revises la [información actualizada abajo](#como-puedo-ayudar-a-traducir-la-documentación)-- el proceso a cambiado un poco.
 
 
 
-## Contributing to the Sails Docs
+## Contribuyendo a la documentación de Sails
 
-We welcome your help!  Please send a pull request to **master** with corrections/additions and they'll be double-checked and merged as soon as possible.
+Agradecemos tu ayuda!  Por favor envía un Pull request a **master** con las correciones/adiciones y serán revisadas hasta dos veces para luego hacer la fusión tan pronto como sea posible.
 
-Secondly, we are open to suggestions about the process we're using to manage our documentation, and to work with the community in general.  Please post to the Google Group with your ideas- or if you're interested in helping directly, contact @fancydoilies, @rudeboot, or @mikermcneil on Twitter.
+Segundo, escuchamos sugerencias acerca del proceso que actualmente usamos para gestionar nuestra documentación, y para trabajar con la comunidad en general.  Por favor postea en el Google Group con tus ideas - o si estás interedaso en ayudar directamente, contacta a @fancydoilies, @rudeboot, or @mikermcneil en Twitter.
 
-#### What branch should I edit?
+#### ¿Que rama debo editar?
 
-That depends on what kind of edit you are making.  Most often, you'll be making an edit that is relevant for the latest stable version of Sails (i.e. the version on [NPM](npmjs.org/package/sails)) and so you'll want to edit the `master` branch of _this_ repo (what you see in the sails-docs repo by default).
+Eso depende del tipo de edición que estés haciendo.  A menudo, estarás haciendo una edición que es relevante a la última versión estable de Sails (por ejemplo, la versión en [NPM](npmjs.org/package/sails)) y querrás editar la rama master de _este_ repo (lo que ves en repositorio por defecto de sails-docs).
 
-On the other hand, if you are making an edit related to an unreleased feature in an upcoming version; most commonly as an accompaniment a feature proposal or open pull request to Sails or a related project, then you will want to edit the branch for the next, unreleased version of Sails (sometimes called "edge").
+Por otro lado, si estás editando algo relacionado a una característica que aún no se ha lanzado, presente en una futura versión; comúnmente como un acompañamiento, una propuesta de alguna nueva característica, un pull request abierto a Sails o un proyecto relacionado, querrás editar la rama para la próxima versión de Sails que aún no se lanzado (algunas veces llamada "edge").
 
 
-| Branch (in `sails-docs`)                    | Documentation for Sails Version...                                   | Preview At...      |
+| Rama (en `sails-docs`)                    | Versión de documentación de Sails...                                   | Vista anticipada en...      |
 |-------------------------------------------------------------------------------------|------------------------|:-------------------|
 | [`master`](https://github.com/balderdashy/sails-docs/tree/master) | [![NPM version](https://badge.fury.io/js/sails.png)](http://badge.fury.io/js/sails) | [preview.sailsjs.org](http://preview.sailsjs.org)
 | [`1.0`](https://github.com/balderdashy/sails-docs/tree/1.0) | Upcoming v1.0 release _(branch not available yet)_           | [next.sailsjs.org](http://next.sailsjs.org)
 | [`0.11`](https://github.com/balderdashy/sails-docs/tree/0.11) | Sails v0.11.x           | [0.11.sailsjs.org](http://0.11.sailsjs.org)
 
 
-#### How are these docs compiled and pushed to the website?
+#### ¿Cómo son esos docs compilados y enviados al sitio Web?
 
-We use a module called `doc-templater` to convert the .md files to the html for the website. You can learn more about how it works in [the doc-templater repo](https://github.com/uncletammy/doc-templater).
+Usamos un módulo llamado `doc-templater` para convertir los archivos .md a html para el sitio web. Puedes aprender más al respecto acerca de como funciona en [el repo doc-templater](https://github.com/uncletammy/doc-templater).
 
-Each .md file has its own page on the website (i.e. all reference, concepts, and anatomy files), and should include a special `<docmeta name="displayName">` tag with a `value` property specifying the title for the page.  This will impact how the doc page appears in search engine results, and it will also be used as its display name in the navigation menu on sailsjs.org.  For example:
+Cada archivo .md tiene su propia página el en sitio web (por ejemplo, los archivos reference, concepts, and anatomy), además deberán incluir una etiqueta especial `<docmeta name="displayName">` con una propiedad `value` especificando el título para la página.  Esto impactará como la página de documentación aparecerá según los resultados en motores de búsqueda y también será usada como su display name en el menú de navegación en sailsjs.org.  Por ejemplo:
 
 ```markdown
 <docmeta name="displayName" value="Building Custom Homemade Puddings">
 ```
 
-#### When will my change appear on the Sails website?
+#### ¿Cuando aparecerán mis cambios en el sitio web de Sails?
 
-Documentation changes go live when they are merged onto a special branch corresponding with the current stable version of Sails (e.g. 0.12). We cannot merge pull requests sent directly to this branch-- its sole purpose is to reflect the content currently hosted on sailsjs.org, and content is only merged just before redeploying the sails website.
+Cambios en la documentación se enviarán al sitio en vivo cuando sean fusionados con la rama especial correspondiente con la actual versión estable de Sails (por ejemplo, 0.12). No podemos fusionar pull requests enviados directamente a esta rama -- su único objetivo es reflejar el contenido actualmente hospedado en sailsjs.org, y el contenido is solamente fusionado sólo justo antes del nuevo despliegue a el sitio web de Sails.
 
-If you want to see how documentation changes will appear on sailsjs.org, you can visit [preview.sailsjs.org](http://preview.sailsjs.org). The preview site updates itself automatically as changes are merged into the master branch of sails-docs.
-
-
-#### How can I help translate the documentation?
-
-A great way to help the Sails project, especially if you speak a language other than English natively, is to volunteer to translate the Sails documentation.  If you are interested in collaborating with any of the translation projects listed in the table above, contact the maintainer of the translation project using the instructions in the README of that fork.
-
-If your language is not represented in the table above, and you are interested in beginning a translation project, follow these steps:
-
-+ Fork this repo (`balderdashy/sails-docs`) and change the name of your fork to be `sails-docs-{{IETF}}` where {{IETF}} is the [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag) for your language.
-+ Edit the README to summarize your progress so far, provide any other information you think would be helpful for others reading your translation, and let interested contributors know how to contact you.
-+ Send a pull request editing the table above to add a link to your fork.
-+ When you are satisfied with the first complete version of your translation, open an issue and someone from our docs team will be happy to help you get preview it in the context of the Sails website, get it live on a domain (yours, or a subdomain of sailsjs.org, whichever makes the most sense), and share it with the rest of the Sails community.
+Si quieres ver como los cambios en la documentación aparecerán en sailsjs.org, puedes visitar [preview.sailsjs.org](http://preview.sailsjs.org). La vista anticipada del sitio se actualiza por sí misma automáticamente a medida que los cambios son fusionados con la rama master de sails-docs.
 
 
-#### How else can I help?
+#### ¿Cómo puedo ayudar a traducir la documentación?
 
-For more information on contributing to Sails in general, see the [Contribution Guide](https://github.com/balderdashy/sails/blob/master/CONTRIBUTING.md).
+Una grandiosa forma de ayudar al proyecto Sails, especialmente si hablas nativamente un idioma diferente a Inglés, es ofrecerse como voluntario para traducir la documentación de Sails.  Si estás interesado en colaborar con alguno de los proyectos de traducción listados en la tabla arriba, contacta al colaborador encargado del proyecto de traducción usando las instrucciones en el README de éste.
 
+Si tu idioma no aparece en la tabla de arriba, y estás interesado en comenzar un nuevo proyecto de traducción, sigue los siguientes pasos:
+
++ Fork este repo (`balderdashy/sails-docs`) y cambia el nombre de tu fork para que sea `sails-docs-{{IETF}}` donde {{IETF}} es la [etiqueta de idioma IETF](https://en.wikipedia.org/wiki/IETF_language_tag) para tu idioma.
++ Edita el README para resumir tu actual progreso, provee alguna otra información que creas sería de ayuda para otros leyendo tu traducción, y hazle saber a los colaboradores interesados como contactarte.
++ Envía un pull request editando la tabla arriba y agrega un enlace a tu fork.
++ Cuando estés satisfehco with la primera versión completa de tu traducción, abre un issue y alguien de nuestro equipo de documentación estará feliz ed ayudarte para obtener una vista anticipada en el context del sitio web de Sails, desplegarlo en un dominio (tuyo o un subdominio de sailsjs.org, el que sea tenga más sentido), y compartirlo con el resto de la comunidad de Sails.
+
+
+#### ¿De que otra forma puedo ayudar?
+
+Para más información sobre cómo contribuir a Sails en general, échale un vistazo a la [Guía de Contribución](https://github.com/balderdashy/sails/blob/master/CONTRIBUTING.md).
+
+#### Progreso del proyecto de traducción a español:
+Archivos traducidos:
+sails-docs-es/getting-started/getting-started.md
+sails-docs-es/README.md
+
+Para interesados en colaborar con este proyecto contactarme por [@eduartua](https://twitter.com/eduartua).
