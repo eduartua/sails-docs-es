@@ -17,7 +17,7 @@ La documentación de Sails ha sido traducida a diferentes idiomas. La tabla de a
 | Mandarín Taiwanés           | `zh-TW` | [@CalvertYang](https://github.com/CalvertYang)   | [sails-docs-zh-TW](https://github.com/balderdashy/sails-docs/tree/zh-TW)
 | Koreano                       | `ko`    | [@sapsaldog](https://github.com/sapsaldog)   | [sails-docs-ko](https://github.com/balderdashy/sails-docs/tree/ko)
 
-> Dado que ahora utilizamos ramas para realizar seguimiento de las diferentes versiones de la documentación de Sails, estamos dejando a un lado el enfoque original de usar ramas para diferentes idiomas. Antes de iniciar un nuevo proyecto de traducción, te pedimos revises la [información actualizada abajo](#como-puedo-ayudar-a-traducir-la-documentación)-- el proceso a cambiado un poco.
+> Dado que ahora utilizamos ramas para realizar seguimiento de las diferentes versiones de la documentación de Sails, estamos dejando a un lado el enfoque original de usar ramas para diferentes idiomas. Antes de iniciar un nuevo proyecto de traducción, te pedimos revises la [información actualizada abajo](#Como-puedo-ayudar-a-traducir-la-documentacion)-- el proceso a cambiado un poco.
 
 
 
