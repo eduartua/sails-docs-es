@@ -7,7 +7,7 @@ La documentación oficial de la última versión estable de Sails está en la [r
 
 ## En Otros Idiomas
 
-La documentación de Sails ha sido traducida a diferentes idiomas. La tabla de abajo es una referencia de los proyectos asociados a las traducciones y de los cuáles estamos al tanto.
+La documentación de Sails ha sido traducida a diferentes idiomas. La tabla de abajo es una referencia de los proyectos asociados a las traducciones de los cuáles estamos al tanto.
 
 | Idioma                     | [Etiqueta de idomas IETF](https://en.wikipedia.org/wiki/IETF_language_tag)  | Colaboarador(es)        | Repo                               |
 | ---------------------------- | ------- | ------------------ | ---------------------------------- |
@@ -25,7 +25,7 @@ La documentación de Sails ha sido traducida a diferentes idiomas. La tabla de a
 
 Agradecemos tu ayuda!  Por favor envía un Pull request a **master** con las correciones/adiciones y serán revisadas hasta dos veces para luego hacer la fusión tan pronto como sea posible.
 
-Segundo, escuchamos sugerencias acerca del proceso que actualmente usamos para gestionar nuestra documentación, y para trabajar con la comunidad en general.  Por favor postea en el Google Group con tus ideas - o si estás interedaso en ayudar directamente, contacta a @fancydoilies, @rudeboot, or @mikermcneil en Twitter.
+Segundo, escuchamos sugerencias acerca del proceso que actualmente usamos para gestionar nuestra documentación, y para trabajar con la comunidad en general.  Por favor postea en el Google Group con tus ideas - o si estás interesado en ayudar directamente, contacta a @fancydoilies, @rudeboot, or @mikermcneil en Twitter.
 
 #### ¿Que rama debo editar?
 
@@ -53,14 +53,14 @@ Cada archivo .md tiene su propia página el en sitio web (por ejemplo, los archi
 
 #### ¿Cuando aparecerán mis cambios en el sitio web de Sails?
 
-Cambios en la documentación se enviarán al sitio en vivo cuando sean fusionados con la rama especial correspondiente con la actual versión estable de Sails (por ejemplo, 0.12). No podemos fusionar pull requests enviados directamente a esta rama -- su único objetivo es reflejar el contenido actualmente hospedado en sailsjs.org, y el contenido is solamente fusionado sólo justo antes del nuevo despliegue a el sitio web de Sails.
+Cambios en la documentación se enviarán al sitio en vivo cuando sean fusionados con la rama especial correspondiente con la actual versión estable de Sails (por ejemplo, 0.12). No podemos fusionar pull requests enviados directamente a esta rama -- su único objetivo es reflejar el contenido actualmente hospedado en sailsjs.org, y el contenido es solamente fusionado sólo justo antes del nuevo despliegue a el sitio web de Sails.
 
 Si quieres ver como los cambios en la documentación aparecerán en sailsjs.org, puedes visitar [preview.sailsjs.org](http://preview.sailsjs.org). La vista anticipada del sitio se actualiza por sí misma automáticamente a medida que los cambios son fusionados con la rama master de sails-docs.
 
 
 #### ¿Cómo puedo ayudar a traducir la documentación?
 
-Una grandiosa forma de ayudar al proyecto Sails, especialmente si hablas nativamente un idioma diferente a Inglés, es ofrecerse como voluntario para traducir la documentación de Sails.  Si estás interesado en colaborar con alguno de los proyectos de traducción listados en la tabla arriba, contacta al colaborador encargado del proyecto de traducción usando las instrucciones en el README de éste.
+Una grandiosa forma de ayudar al proyecto Sails, especialmente si hablas nativamente un idioma diferente a Inglés, es ofrecerse como voluntario para traducir la documentación de Sails.  Si estás interesado en colaborar con alguno de los proyectos de traducción listados en la tabla arriba, contacta al colaborador encargado del proyecto de traducción usando las instrucciones en éste README.
 
 Si tu idioma no aparece en la tabla de arriba, y estás interesado en comenzar un nuevo proyecto de traducción, sigue los siguientes pasos:
 
@@ -76,7 +76,8 @@ Para más información sobre cómo contribuir a Sails en general, échale un vis
 
 #### Progreso del proyecto de traducción a español:
 Archivos traducidos:
-1. Sails-docs-es/getting-started/getting-started.md
-2. Sails-docs-es/README.md
+
++ sails-docs-es/getting-started/getting-started.md
++ sails-docs-es/README.md
 
 Para interesados en colaborar con este proyecto contactarme por [@eduartua](https://twitter.com/eduartua).
