@@ -1,10 +1,9 @@
-# Task Automation
+# Automatización de Tareas
 
-### Overview
+### Resumen
+El directorio [`tasks/`](http://sailsjs.org/documentation/anatomy/tasks) contiene una serie de [tareas Grunt](http://gruntjs.com/creating-tasks) y sus [configuraciones](http://gruntjs.com/configuring-tasks).
 
-The [`tasks/`](http://sailsjs.org/documentation/anatomy/tasks) directory contains a suite of [Grunt tasks](http://gruntjs.com/creating-tasks) and their [configurations](http://gruntjs.com/configuring-tasks).
-
-Tasks are mainly useful for bundling front-end assets, (like stylesheets, scripts, & client-side markup templates) but they can also be used to automate all kinds of repetitive development chores, from [browserify](https://github.com/jmreidy/grunt-browserify) compilation to [database migrations](https://www.npmjs.org/package/grunt-db-migrate).
+Las tareas son principalmente útiles para la construcción de assets del front-end, (tales como stylesheets, scripts, y plantillas de markup del lado del client) pero también pueden ser usadas para automatizar cualquier tipo de tareas rutinarias en el proceso de desarrollo, desde compilación de [browserify](https://github.com/jmreidy/grunt-browserify) hasta [migraciones de bases de datos](https://www.npmjs.org/package/grunt-db-migrate).
 
 Sails bundles some [default tasks](http://sailsjs.org/documentation/grunt/default-tasks) for convenience, but with [literally hundreds of plugins](http://gruntjs.com/plugins) to choose from, you can use tasks to automate just about anything with minimal effort.  If someone hasn't already built what you need, you can always [author](http://gruntjs.com/creating-tasks) and [publish your own Grunt plugin](http://gruntjs.com/creating-plugins) to [npm](http://npmjs.org)!
 
