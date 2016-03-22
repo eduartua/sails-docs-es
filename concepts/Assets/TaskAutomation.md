@@ -7,15 +7,15 @@ Las tareas son principalmente útiles para la construcción de assets del front-
 
 Sails empaqueta algunas [tareas por defecto](http://sailsjs.org/documentation/grunt/default-tasks) por conveniencia, pero con [literalmente con cientos de plugins](http://gruntjs.com/plugins) para escoger, puedes usar tareas para automatizar cualquier cosa con mínimo esfuerzo.  Si alguien aún no ha desarrollado lo que necesitas, puedes siempre [autor](http://gruntjs.com/creating-tasks) y [publicar tu propio plugin de Grunt](http://gruntjs.com/creating-plugins) hacia [npm](http://npmjs.org)!
 
-> If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins.
+> Si nunca antes habías usado [Grunt](http://gruntjs.com/), asegúrarte de revisar la guía [Getting Started](http://gruntjs.com/getting-started) , ya que explica cómo crear un [Gruntfile](http://gruntjs.com/sample-gruntfile) así como instalar y utilizar Grunt plugins.
 
 
 ### Asset pipeline
 
-The asset pipeline is the place where you will organize the assets that will be injected into your views, and it can be found in the `tasks/pipeline.js` file. Configuring these assets is simple and uses grunt [task file configuration](http://gruntjs.com/configuring-tasks#files) and [wildcard/glob/splat patterns](http://gruntjs.com/configuring-tasks#globbing-patterns). They are broken down into three sections.
+El asset pipeline es el lugar donde arganizarás tus assets, los cuáles serán inyectados a tus vistas y puede ser encontrado en el archivo `tasks/pipeline.js` . Configurar esos assets es simple y se usa [el archivo de configuración de tareas grunt](http://gruntjs.com/configuring-tasks#files) y [patrones wildcard/glob/splat](http://gruntjs.com/configuring-tasks#globbing-patterns). Son desglosados en tres secciones.
 
-##### CSS Files to Inject
-This is an array of css files to be injected into your html as `<link>` tags.  These tags will be injected between the `<!--STYLES--><!--STYLES END-->` comments in any view in which they appear.
+##### Archivos CSS a inyectar
+Este es un arreglo de archivos css a ser inyectados en tu html como etiquetas `<link>` .  Ésas etiquetas serán inyectadas entre los comentarios `<!--STYLES--><!--STYLES END-->` en cualquier vista que aparezcan.
 
 ##### Javascript Files to Inject
 This is an array of Javascript files that gets injected into your html as `<script>` tags.  These tags will be injected between the `<!--SCRIPTS--><!--SCRIPTS END-->` comments in any view in which they appear. The files get injected in the order they are in the array (i.e. you should place the path of dependencies before the file that depends on them.)
