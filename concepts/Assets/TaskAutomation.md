@@ -5,7 +5,7 @@ El directorio [`tasks/`](http://sailsjs.org/documentation/anatomy/tasks) contien
 
 Las tareas son principalmente útiles para la construcción de assets del front-end, (tales como stylesheets, scripts, y plantillas de markup del lado del client) pero también pueden ser usadas para automatizar cualquier tipo de tareas rutinarias en el proceso de desarrollo, desde compilación de [browserify](https://github.com/jmreidy/grunt-browserify) hasta [migraciones de bases de datos](https://www.npmjs.org/package/grunt-db-migrate).
 
-Sails bundles some [default tasks](http://sailsjs.org/documentation/grunt/default-tasks) for convenience, but with [literally hundreds of plugins](http://gruntjs.com/plugins) to choose from, you can use tasks to automate just about anything with minimal effort.  If someone hasn't already built what you need, you can always [author](http://gruntjs.com/creating-tasks) and [publish your own Grunt plugin](http://gruntjs.com/creating-plugins) to [npm](http://npmjs.org)!
+Sails empaqueta algunas [tareas por defecto](http://sailsjs.org/documentation/grunt/default-tasks) por conveniencia, pero con [literalmente con cientos de plugins](http://gruntjs.com/plugins) para escoger, puedes usar tareas para automatizar cualquier cosa con mínimo esfuerzo.  Si alguien aún no ha desarrollado lo que necesitas, puedes siempre [autor](http://gruntjs.com/creating-tasks) y [publicar tu propio plugin de Grunt](http://gruntjs.com/creating-plugins) hacia [npm](http://npmjs.org)!
 
 > If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins.
 
