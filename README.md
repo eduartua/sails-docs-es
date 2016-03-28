@@ -79,5 +79,10 @@ Archivos traducidos:
 
 + sails-docs-es/getting-started/getting-started.md
 + sails-docs-es/README.md
++ sails-docs-es/conceots/Assets:
+  * Assets.md
+  * DefaultTasks.md
+  * DisablingGrunt.md
+  * TaskAutomation.md
 
 Para interesados en colaborar con este proyecto contactarme por [@eduartua](https://twitter.com/eduartua).
