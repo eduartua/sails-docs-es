@@ -1,14 +1,15 @@
-# Blueprint Routes
+# Rutas Blueprint
 
-When you run `sails lift` with blueprints enabled, the framework inspects your controllers, models, and configuration in order to [bind certain routes](http://sailsjs.org/documentation/concepts/Routes) automatically. These implicit blueprint routes (sometimes called "shadow routes", or even just "shadows") allow your app to respond to certain requests without you having to bind those routes manually in your `config/routes.js` file.  By default, the blueprint routes point to their corresponding blueprint *actions* (see "Blueprint Actions" below), any of which can be overridden with custom code.
-
-There are three types of blueprint routes in Sails:
-
-+ **RESTful routes**, where the path is always `/:modelIdentity` or `/:modelIdentity/:id`.  These routes use the HTTP "verb" to determine the action to take; for example a `POST` request to `/user` will create a new user, and a `DELETE` request to `/user/123` will delete the user whose primary key is 123.  In a production environment, RESTful routes should generally be protected by [policies](http://sailsjs.org/documentation/concepts/Policies) to avoid unauthorized access.
-+ **Shortcut routes**, where the action to take is encoded in the path.  For example, the `/user/create?name=joe` shortcut creates a new user, while `/user/update/1?name=mike` updates user #1. These routes only respond to `GET` requests.  Shortcut routes are very handy for development, but generally should be disabled in a production environment.
-+ **Action routes**, which automatically create routes for your custom controller actions.  For example, if you have a `FooController.js` file with a `bar` method, then a `/foo/bar` route will automatically be created for you as long as blueprint action routes are enabled.  Unlike RESTful and shortcut routes, action routes do *not* require that a controller has a corresponding model file.
+Cuando corres el comando sails lift con blueprints habilitadas el framework inspecciona todos tus controladores, modelos y configuración con la finalidad de [enlazar ciertas rutas](http://sailsjs.org/documentation/concepts/Routes). Estas rutas de blueprints implícitas (algunas veces llamadas "shadow routes" o incluso sólo "shadow") le permiten a tu aplicación responder a ciertos requests sin que tengas que enlazar esas rutas manualmente en tu archivo config/routes.js. Por defecto, las rutas de blueprints apuntan a sus correspondientes *acciones* blueprints (observa " Blueprints Actions" abajo) cualquiera de los cuales puede ser eliminada con código.
 
 
-See the [blueprints subsection of the configuration reference](http://sailsjs.org/documentation/reference/sails.config/sails.config.blueprints.html) for blueprint configuration options, including how to enable / disable different blueprint route types.
+Hay tres tipos de rutas de blueprints en Sails:
+
++ **Rutas RESTful**, donde el path es siempre `/:modelIdentity` o `/:modelIdentity/:id`.  Estas rutas usan el verbo HTTP para determinar la acción a tomar; por ejemplo una petición POST a /user creará un nuevo usuario y una petición DELETE a /user/123 borrará el usuario cuya primary key es 123. En un entorno de producción las rutas RESTful generalmente deberían ser protegidas por [políticas](http://sailsjs.org/documentation/concepts/Policies) que restrinjan el acceso no autorizado.
++ **Rutas Shortcut**, Donde la acción a tomar está codificada en el path.  Por ejemplo, el atajo `/user/create?name=joe` crea un nuevo usuario, mientras que `/user/update/1?name=mike` actualiza el usuario #1. Estas rutas solamente responden a requests tipo`GET`.  Las rutas Shortcut sun muy práticas para desarrollo, pero generalmente seberían ser deshabilitadas en un ambient de producción.
++ **Rutas Action**, el cual automáticamente crean rutas para las acciones de tus controladores personalizados.  Por ejemplo, si tienes un archivo `FooController.js` con un método `bar`, entonces una ruta `/foo/bar` será automáticamente creada para para ti mientras las rutas de acción blueprint esten habilitadas.  Diferente a las rutas RESTful y shortcut, las rutas action *no* requieren que un controlador tenga un correspondiente archivo de su modelo.
+
+
+Ver la [subsección de blueprints en la referencia de configuración](http://sailsjs.org/documentation/reference/sails.config/sails.config.blueprints.html) para opciones de configuración blueprint, incluyendo cómo habilitar / desabilitar diferentes tipos de rutas blueprint.
 
 <docmeta name="displayName" value="Blueprint Routes">
