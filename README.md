@@ -86,5 +86,7 @@ Archivos traducidos:
   * TaskAutomation.md
 + sails-docs-es/Blueprints:
   * Blueprint Actions.md
+  * Blueprint Routes.md
+  * Blueprints.md
 
 Para interesados en colaborar con este proyecto contactarme por [@eduartua](https://twitter.com/eduartua).
