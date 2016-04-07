@@ -1,23 +1,23 @@
-# Configuration
+# Configuración
 
-### Overview
+### Resumen
 
-While Sails dutifully adheres to the philosophy of [convention-over-configuration](http://en.wikipedia.org/wiki/Convention_over_configuration), it is important to understand how to customize those handy defaults from time to time.  For almost every convention in Sails, there is an accompanying set of configuration options that allow you to adjust or override things to fit your needs.  This section of the docs includes a complete reference of the configuration options available in Sails.
+Si bien Sails diligentenmente incorpora la filosofía de [convención-sobre-configuración](http://en.wikipedia.org/wiki/Convention_over_configuration), es importante entender como personalizar esos prácticos valores predeterminados de vez en cuando.  Por casi cada convención en Sails, hay un conjunto de acompañamiento de opcíones de configuración que te permiten ajustar o eliminar cosas para ajustarte a tus necesidades.  Esta sección de la documentación incluye una referencia completa de las opciones de configuración disponibles en Sails.
 
-Sails apps can be [configured programmatically](https://github.com/mikermcneil/sails-generate-new-but-like-express/blob/master/templates/app.js#L15), by specifying [environment variables](http://en.wikipedia.org/wiki/Environment_variable) or command-line arguments, by changing the local or global [`.sailsrc` files](http://sailsjs.org/documentation/anatomy/myApp/sailsrc.html), or (most commonly) using the boilerplate configuration files conventionally located in the [`config/`](http://sailsjs.org/documentation/anatomy/myApp/config) folder of new projects. The authoritative, merged-together configuration used in your app is available at runtime on the `sails` global as `sails.config`.
+Las aplicaciones en Sails pueden ser [programáticamente configuradas](https://github.com/mikermcneil/sails-generate-new-but-like-express/blob/master/templates/app.js#L15), especificando [variables de entorno](http://en.wikipedia.org/wiki/Environment_variable) o argumentos de línea de comandos, cambiando los archivos globales o locales [`.sailsrc` ](http://sailsjs.org/documentation/anatomy/myApp/sailsrc.html), o (más comúnmente) usando los archivos de configuración boilerplate (código reusable) convencionalmente localizados en la carpeta [`config/`](http://sailsjs.org/documentation/anatomy/myApp/config) de nuevos proyectos. La autoritativa, configuración merged-together usada en tu app está disponible en runtime en la global `sails` como `sails.config`.
 
 
-### Standard configuration files (`config/*`)
+### Archivos de configuración estándard (`config/*`)
 
-A number of configuration files are generated in new Sails apps by default.  These boilerplate files include a number of inline comments, which are designed to provide a quick, on-the-fly reference without having to jump back and forth between the docs and your text editor.
+Cierto número de archivos de configuración son genereados por defecto en nuevas aplicaciones Sails.  Ésos archivos boilerplate (código reusable) incluyen una cantidad de comentarios inline, el cual son diseñados para proveer una rápida referencia sobre la marcha sin tener que saltar de aquí para allá entre documentos y tu editor de texto.
 
-In most cases, the top-level keys on the `sails.config` object (e.g. `sails.config.views`) correspond to a particular configuration file (e.g. `config/views.js`) in your app; however configuration settings may be arranged however you like across the files in your `config/` directory.  The important part is the name (i.e. key) of the setting- not the file it came from.
+En la mayoría de los casos, las llaves the top-level en el objeto `sails.config` (por ejemplo `sails.config.views`) corresponden a un archivo de configuración en particular (por ejemplo `config/views.js`) en tu aplicación; sin embargo, los ajustes de configuración pueden ser arreglados de la manera que quieras a través de los archivos en tu directorio `config/` .  La parte importante es el nombre (por ejemplo key) de los ajustes- no el archivo de donde viene.
 
-For instance, let's say you add a new file, `config/foo.js`:
+Por ejemplo, digamos que agregas un nuevo archivo, `config/foo.js`:
 
 ```js
 // config/foo.js
-// The object below will be merged into `sails.config.blueprints`:
+// El objeto abajo será fusionado en `sails.config.blueprints`:
 module.exports.blueprints = {
   shortcuts: false
 };
