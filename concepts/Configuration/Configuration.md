@@ -23,26 +23,26 @@ module.exports.blueprints = {
 };
 ```
 
-For an exhaustive reference of individual configuration options, and the file they live in by default, check out the reference pages in this section, or take a look at ["`config/`"](http://sailsjs.org/documentation/anatomy/myApp/config) in [The Anatomy of a Sails App](http://sailsjs.org/documentation/anatomy) for a higher-level overview.
+Para una referencia exhaustiva de oprciones de configuración individual y el archivo donde se encuentra por defecto, revisa la páginas de referencia in esta sección, e échale un vistazo a ["`config/`"](http://sailsjs.org/documentation/anatomy/myApp/config) en [La Anatomía de una Aplicación Sails](http://sailsjs.org/documentation/anatomy) para un resumen más amplio.
 
-### Environment-specific files (`config/env/*`)
+### Archivos de entorno específico (`config/env/*`)
 
-Settings specified in the standard configuration files will generally be available in all environments (i.e. development, production, test, etc.).  If you'd like to have some settings take effect only in certain environments, you can use the special environment-specific files and folders:
+Configuraciones especificadas en los archivos de configuración estándar generalmente estarán disponibles en todos los entornos (por ejemplo, desarrollo, producción, test, entre otros.).  Si quisieras tener algunos ajustes que tomen edecto sólo en ciertos ambientes, puedes usar los dirctorios y archivos especiales de ambientes específicos:
 
-* Any files saved under the `/config/env/<environment-name>` folder will be loaded *only* when Sails is lifted in the `<environment-name>` environment.  For example, files saved under `config/env/production` will only be loaded when Sails is lifted in production mode.
-* Any files saved as `config/env/<environment-name>.js` will be loaded *only* when Sails is lifted in the `<environment-name>` environment, and will be merged on top of any settings loaded from the environment-specific subfolder.  For example, settings in `config/env/production.js` will take precedence over those in the files in the  `config/env/production` folder.  
+* Cualquier archivo guardado en el directoiro `/config/env/<environment-name>` será cargado *solamente* cuando Sails es lifted en el ambiente `<environment-name>`.  Por ejemplo, archivos guardados en `config/env/production` serán solamente cargados cuando Sails es ejecutado  en modo producción.
+* Cualquier archivo guardado como `config/env/<environment-name>.js` será cargado *solamente* cuando Sails es ejecutado en el ambiente `<environment-name>`, y será fusionado en la parte superior (top) de cualquier otro ajuste cargado desde el sub-directorio de ambiente específico.  Por ejemplo, ajustes en `config/env/production.js` tomarán precedencia sobre aquellos archivos in el directorio  `config/env/production`.  
 
-By default, your app runs in the "development" environment.  The recommended approach for changing your app's environment is by using the `NODE_ENV` environment variable:
+Por defecto, tu aplicación corren en el ambiente "development".  La manera de abordar recomendada el cambio de ambientes de tu aplicación es usando la variamble de entorno `NODE_ENV` :
 ```
 NODE_ENV=production node app.js
 ```
 
-> The `production` environment is special-- depending on your configuration, it enables compression, caching, minification, etc. 
+> El entorno `production` es especial-- dependiendo de tu configuración, habilita compression, caching, minification, entre otros. 
 >
-> Also note that if you are using `config/local.js`, the configuration exported in that file takes precedence over environment-specific configuration files.
+> También ten en cuanta que si estás usando `config/local.js`, la configuración exportada en ese archivo toma precedencia sobre los archivos de configuración environment-specific.
 
 
-### The `config/local.js` file
+### El archivo `config/local.js`
 
 You may use the `config/local.js` file to configure a Sails app for your local environment (your laptop, for example).  The settings in this file take precedence over all other config files except [.sailsrc](http://sailsjs.org/documentation/concepts/Configuration/usingsailsrcfiles.html).  Since they're intended only for local use, they should not be put under version control (and are included in the default `.gitignore` file for that reason).  Use `local.js` to store local database settings, change the port used when lifting an app on your computer, etc.
 
