@@ -88,5 +88,7 @@ Archivos traducidos:
   * Blueprint Actions.md
   * Blueprint Routes.md
   * Blueprints.md
++ sails-docs-es/Configuration:
+  * Configuration.md
 
 Para interesados en colaborar con este proyecto contactarme por [@eduartua](https://twitter.com/eduartua).
