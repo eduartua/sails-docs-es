@@ -77,18 +77,19 @@ Para más información sobre cómo contribuir a Sails en general, échale un vis
 #### Progreso del proyecto de traducción a español:
 Archivos traducidos:
 
-+ sails-docs-es/getting-started/getting-started.md
++ sails-docs-es/getting-started/getting-started.md (FINALIZADO)
 + sails-docs-es/README.md
 + sails-docs-es/concepts/Assets:
-  * Assets.md
-  * DefaultTasks.md
-  * DisablingGrunt.md
-  * TaskAutomation.md
-+ sails-docs-es/Blueprints:
-  * Blueprint Actions.md
-  * Blueprint Routes.md
-  * Blueprints.md
-+ sails-docs-es/Configuration:
-  * Configuration.md
+  * Assets.md (FINALIZADO)
+  * DefaultTasks.md (FINALIZADO)
+  * DisablingGrunt.md (FINALIZADO)
+  * TaskAutomation.md (FINALIZADO)
++ sails-docs-es/concepts/Blueprints:
+  * Blueprint Actions.md (FINALIZADO)
+  * Blueprint Routes.md (FINALIZADO)
+  * Blueprints.md (FINALIZADO)
++ sails-docs-es/concepts/Configuration:
+  * Configuration.md (EN REVISIÓN)
+  * localjsfile.md (EN PROGRESO)
 
 Para interesados en colaborar con este proyecto contactarme por [@eduartua](https://twitter.com/eduartua).
